@@ -5,6 +5,8 @@
  */
 package pkg123210181_responsi_prakpbo;
 
+import view.ViewLomba;
+
 /**
  *
  * @author Lab Informatika
@@ -16,6 +18,7 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        new ViewLomba().setVisible(true);
     }
     
 }
